@@ -15,7 +15,10 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   display: block;
 }
 
-
+a{
+  color: inherit;
+  position: relative;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -26,9 +29,24 @@ body {
   text-align: left;
   background-color: #fff;
 }
+.flex{
 
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: flex-start;
+  width: 100%;
 
+}
 
+.header{
+  display: inline-flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: flex-start;
+  width: 100%;
+  
+}
 #header_top{
 
 	background-color: #2C3539;
@@ -48,8 +66,9 @@ body {
   width: 100%;
   position: relative;
 	display: inline-flex;
+  flex-direction: row;
 	box-sizing: border-box;
-  padding: 1rem;
+  justify-content: center;
   
 }
 .row-content{
@@ -120,6 +139,7 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     min-width: 0;
+    width: auto;
     word-wrap: break-word;
     background-color: #fff;
     box-sizing: border-box;
@@ -135,10 +155,12 @@ body {
 }
 
 .card-header{
+
+    font-size: 70%;
     padding-right: 2rem;
     padding-top: .75rem;
     padding-bottom: .75rem;
-    padding-left: .75rem;
+    
     margin-bottom: 0;
     background-color: rgba(0,0,0,.03);
     border-bottom: 1px solid rgba(0,0,0,.125);
@@ -237,10 +259,14 @@ body {
 
 
 .col-1{
+  position: relative;
   display: flex;
+  flex-direction: row;
+  flex:1;
+  flex-wrap: wrap;
 	min-width: 7.5%;
 	padding:0px 5px;
-	font-size: 60%;
+	font-size: 100%;
   justify-content: flex-start;
 
 }
@@ -267,11 +293,13 @@ body {
   .table-right{
     float: right;
     margin-right: 3%;
+    width: auto;
    
   }
   .table-left{
     float: left;
     margin-right: auto;
+    width: auto;
   }
 
   .table-left table td{
