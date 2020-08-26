@@ -62,12 +62,21 @@ body {
     justify-content: space-between;
     text-align: center;
 }
-.row {
-  width: 100%;
+#accordian .row {
+  
   position: relative;
 	display: inline-flex;
   flex-direction: row;
 	box-sizing: border-box;
+  justify-content: center;
+  
+}
+.row {
+  width: 100%;
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  box-sizing: border-box;
   justify-content: center;
   
 }
@@ -148,6 +157,7 @@ body {
     border-radius: .25rem;
     box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 4px 1px;
     margin-bottom: 0.5rem;
+    overflow-x: scroll;
 
 }
 .inactive{
@@ -157,7 +167,8 @@ body {
 .card-header{
 
     font-size: 70%;
-    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
     padding-top: .75rem;
     padding-bottom: .75rem;
     
@@ -170,10 +181,11 @@ body {
     border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
 }
 .card-body{
-
+  width: 95%;
   position: relative;
   padding: 1.25rem;
   margin-right: 1.5rem;
+  margin-left: 1.5rem;
 
 }
 #header_top .container{
@@ -297,8 +309,10 @@ body {
    
   }
   .table-left{
+    position: relative;
     float: left;
     margin-right: auto;
+    margin-left: 10%; 
     width: auto;
   }
 
@@ -428,4 +442,12 @@ td img,.smallpic{
   
 
  
+}
+
+@media only screen and (max-width: 600px){
+
+  .table-left
+  {
+    margin-left: 20%;
+  }
 }
