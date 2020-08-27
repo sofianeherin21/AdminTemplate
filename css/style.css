@@ -160,7 +160,7 @@ body {
     overflow-x: scroll;
 
 }
-.inactive{
+.collapse{
   display: none;
 }
 
@@ -279,7 +279,7 @@ body {
 	min-width: 7.5%;
 	padding:0px 5px;
 	font-size: 100%;
-  justify-content: flex-start;
+  justify-content: center;
 
 }
 .col-12{
@@ -354,7 +354,7 @@ body {
     border: 0.5px solid #dddddd;
     padding: .5rem; 
     vertical-align: top;
-    
+    width: 100%;
     text-align: center;
     overflow-wrap: break-word;
   }
@@ -429,6 +429,7 @@ td img,.smallpic{
 .nav-item{
   padding-right: 0.5rem;
 }
+
 
 @media{
 

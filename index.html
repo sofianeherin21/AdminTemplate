@@ -13,6 +13,7 @@
     <!-- Customized CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+
 </head>
 <body>
 
@@ -44,7 +45,7 @@
 									<div class="dropdown d-flex">
 										<span class=" chip ml-3">
 											<span class="avatar"> <img  class="img-fluid" src="img/user.png"></span>
-											Sofia</br> <em>user</em>
+											Sofia <span class="fa fa-caret-down"></span></br> <em>user</em>
 
 										</span>
 										<span class="fa fa-sign-in"></span>
@@ -85,6 +86,7 @@
 				                    	<li class="col-1">Revenue <span class="fa fa-caret-down"></span></li>
 				                    	<li class="col-1">Expense <span class="fa fa-caret-down"></span></li>
 				                    	<li class="col-1">Profit <span class="fa fa-caret-down"></span></li>
+				                    	<li class="col-1"><span class="fa fa-filter fa-lg"></span><span class="fa fa-caret-down"></span></li>
 				                    </ul>
 				                </div>    	
 				                  
@@ -221,13 +223,12 @@
 				                            		<td>5.00</td>
 				                            		<td>5.00</td>
 				                            		<td>5.00</td>
-				                            		
 				                            	</tr>
 				                            </table>
 				                        </div>
 				                        <div class="action">
 				                        	<ul class="list-unstyled">
-				                        		<li class="list"><button class="btn round-btn danger"><span class="fa fa-times"></span></button></li>
+				                        		<li class="list"><button class="btn round-btn danger"><span class="fa fa-trash"></span></button></li>
 				                        		<li class="list"><button class="btn round-btn success"><span class="fa fa-clone"></span></button></li>
 				                        		<li class="list"><button  class="btn round-btn primary"><span class="fa fa-save"></span></button></li>
 
@@ -271,8 +272,9 @@
 			                        </div>
 			                    </div>
 			                    <div class="card">
-			                          <div class="card-header" role="tab" id="row2head" >
-			                          
+
+			                          <div class="card-header" role="tab" id="row3head" >
+			                          	
 			                            <a data-toggle="collapse" data-target="#row2">
 			                              <div class="row">
 			                              	<div class="col-1">New Entry</div>
@@ -291,7 +293,7 @@
 			                            </a>
 			                          
 			                        </div>
-			                          <div class="collapse" id="row2" data-parent="#accordian">
+			                          <div class="collapse" id="row3" data-parent="#accordian">
 			                            <div class="card-body inactive">
 			                              <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -309,7 +311,9 @@
 				
 			</div>
 	</div>
+	
 
+	<script type="text/javascript" src="js/scripts.js"></script>
 
 </body>
 </html>
