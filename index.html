@@ -39,28 +39,28 @@
 							<div class="float-left">
 								<h4><span class="fa fa-newspaper-o"></span> Staff Report</h4>
 								
-							</div>
+							</div><!--floatleft-->
 							<div class="float-right">
 								<div class="notification d-flex">
 									<div class="dropdown d-flex">
-										<span class=" chip ml-3">
+										<div class=" chip ml-3">
 											<span class="avatar"> <img  class="img-fluid" src="img/user.png"></span>
 											Sofia <span class="fa fa-caret-down"></span></br> <em>user</em>
 
-										</span>
+										</div>
 										<span class="fa fa-sign-in"></span>
 
 										
-									</div>
+									</div><!--end dropdown dflex-->
 									
-								</div>
-							</div>
+								</div><!--notification dflex-->
+							</div><!--floatright-->
 							
-						</div>
+						</div><!--page-header-->
 						
-					</div>
+					</div><!--container-fluid-->
 					
-				</div>
+				</div><!--sectionbody-->
 
 				<div class="offset-md-1 d-flex">
 
@@ -75,6 +75,7 @@
 			                	<li class="nav-item"> Contact</li>
 			                </ul>
 			                <hr/>
+
 			                <div id="table-nav" class="primary">
 			                	<div class="flex-col">
 				                    <ul class="header list-unstyled">
@@ -93,9 +94,9 @@
 			                </div>
 			                <div id="accordian">
 			                    <div class="card">
-			                        <div class="card-header" role="tab" id="peterhead" >
+			                        <div class="card-header" role="tab" id="row1head" >
 			                          
-			                            <a data-toggle="collapse" data-target="#peter">
+			                            <a data-toggle="collapse" data-target="#row1">
 			                              <div class="header list-unstyled">
 			                              	<li class="col-1">New Entry</li>
 			                              	<li class="col-1"><img src="img/user.png" class="smallpic">Sofia</li>
@@ -113,7 +114,7 @@
 			                            </a>
 			                          
 			                        </div>
-			                        <div class="collapse show" id="peter" data-parent="#accordian">
+			                        <div class="collapse show" id="row1" data-parent="#accordian">
 			                          <div class="card-body row">
 			                          	<div class="table-left">
 			                          		<table>
@@ -242,12 +243,12 @@
 			                          <div class="card-header" role="tab" id="row2head" >
 			                          
 			                            <a data-toggle="collapse" data-target="#row2">
-			                              <div class="row">
+			                              <div class="header list-unstyled">
+			                              	<li class="col-1">New Entry</li>
+			                              	<li class="col-1"><img src="img/user.png" class="smallpic">Sofia</li>
+			                              	<li class="col-1">Company01</li>
 			                              	<div class="col-1">New Entry</div>
-			                              	<div class="col-1">Sadman</div>
-			                              	<div class="col-1">Company01</div>
-			                              	<div class="col-1">New Entry</div>
-			                              	<div class="col-1">Sadman</div>
+			                              	<div class="col-1">Sofia</div>
 			                              	<div class="col-1">2020/08</div>
 			                              	<div class="col-1">2020/10</div>
 			                              	<div class="col-1">Y400,000</div>
@@ -260,28 +261,141 @@
 			                          
 			                        </div>
 			                          <div class="collapse" id="row2" data-parent="#accordian">
-			                            <div class="card-body inactive">
-			                              <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			                              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
-			                            </div>
+			                            <div class="card-body row">
+			                          	<div class="table-left">
+			                          		<table>
+				                            	
+				                            	<tr>
+				                            		<td>ABC</td>
+				                            		<td>Y100000</td>
+				                            	</tr>
+				                            	<tr>
+				                            		<td>ABC</td>
+				                            		<td>Y100000</td>
+				                            	</tr>
+				                            	<tr>
+				                            		<td>ABC</td>
+				                            		<td>Y100000</td>
+				                            	</tr>
+				                            	<tr>
+				                            		<td>ABC</td>
+				                            		<td>Y100000</td>
+				                            	</tr>
+				                            </table>
+			                          	</div>
+			                          	<div class="add">
+			                          		<button class="btn round-btn primary"><span class="fa fa-plus"></span></button>
+			                          	</div>
+			                            <div class="table-right">
+				                            <table>
+				                            	<tr>
+				                            		<th>Member</th>
+				                            		<th>Ab</th>
+				                            		<th>202001</th>
+				                            		<th>202002</th>
+				                            		<th>202003</th>
+				                            		<th>202004</th>
+				                            		<th>202005</th>
+				                            		<th>202006</th>
+				                            		<th>202001</th>
+				                            		<th>202002</th>
+				                            		<th>202003</th>
+				                            		<th>202004</th>
+				                            		<th>202005</th>
+				                            		<th>202006</th>
+				                            	</tr>
+				                            	<tr>
+				                            		<td><img src="img/user.png">Sofia</td>
+				                            		<td>none</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+
+				                            	</tr>
+				                            	<tr>
+				                            		<td><img src="img/user.png">Sofia</td>
+				                            		<td>none</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		
+				                            	</tr>
+				                            	<tr>
+				                            		<td><img src="img/user.png">Sofia</td>
+				                            		<td>none</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		
+				                            	</tr>
+				                            	<tr>
+				                            		<td><img src="img/user.png">Sofia</td>
+				                            		<td>none</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            	</tr>
+				                            </table>
+				                        </div>
+				                        <div class="action">
+				                        	<ul class="list-unstyled">
+				                        		<li class="list"><button class="btn round-btn danger"><span class="fa fa-trash"></span></button></li>
+				                        		<li class="list"><button class="btn round-btn success"><span class="fa fa-clone"></span></button></li>
+				                        		<li class="list"><button  class="btn round-btn primary"><span class="fa fa-save"></span></button></li>
+
+				                        	</ul>
+				                        </div>
+			                          </div>
 			                          </div>
 			                        </div>
-			                    </div>
+			                    
 			                    <div class="card">
 
 			                          <div class="card-header" role="tab" id="row3head" >
 			                          	
-			                            <a data-toggle="collapse" data-target="#row2">
-			                              <div class="row">
+			                            <a data-toggle="collapse" data-target="#row3">
+			                              <div class="header list-unstyled">
+			                              	<li class="col-1">New Entry</li>
+			                              	<li class="col-1"><img src="img/user.png" class="smallpic">Sofia</li>
+			                              	<li class="col-1">Company01</li>
 			                              	<div class="col-1">New Entry</div>
-			                              	<div class="col-1">Sadman</div>
-			                              	<div class="col-1">Company01</div>
-			                              	<div class="col-1">New Entry</div>
-			                              	<div class="col-1">Sadman</div>
+			                              	<div class="col-1">Sofia</div>
 			                              	<div class="col-1">2020/08</div>
 			                              	<div class="col-1">2020/10</div>
 			                              	<div class="col-1">Y400,000</div>
@@ -293,24 +407,137 @@
 			                            </a>
 			                          
 			                        </div>
-			                          <div class="collapse" id="row3" data-parent="#accordian">
-			                            <div class="card-body inactive">
-			                              <p class="d-none d-sm-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			                              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			                              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			                              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			                              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			                              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</em></p>
-			                            </div>
+			                        <div class="collapse" id="row3" data-parent="#accordian">
+			                            <div class="card-body row">
+			                          	<div class="table-left">
+			                          		<table>
+				                            	
+				                            	<tr>
+				                            		<td>ABC</td>
+				                            		<td>Y100000</td>
+				                            	</tr>
+				                            	<tr>
+				                            		<td>ABC</td>
+				                            		<td>Y100000</td>
+				                            	</tr>
+				                            	<tr>
+				                            		<td>ABC</td>
+				                            		<td>Y100000</td>
+				                            	</tr>
+				                            	<tr>
+				                            		<td>ABC</td>
+				                            		<td>Y100000</td>
+				                            	</tr>
+				                            </table>
+			                          	</div>
+			                          	<div class="add">
+			                          		<button class="btn round-btn primary"><span class="fa fa-plus"></span></button>
+			                          	</div>
+			                            <div class="table-right">
+				                            <table>
+				                            	<tr>
+				                            		<th>Member</th>
+				                            		<th>Ab</th>
+				                            		<th>202001</th>
+				                            		<th>202002</th>
+				                            		<th>202003</th>
+				                            		<th>202004</th>
+				                            		<th>202005</th>
+				                            		<th>202006</th>
+				                            		<th>202001</th>
+				                            		<th>202002</th>
+				                            		<th>202003</th>
+				                            		<th>202004</th>
+				                            		<th>202005</th>
+				                            		<th>202006</th>
+				                            	</tr>
+				                            	<tr>
+				                            		<td><img src="img/user.png">Sofia</td>
+				                            		<td>none</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+
+				                            	</tr>
+				                            	<tr>
+				                            		<td><img src="img/user.png">Sofia</td>
+				                            		<td>none</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		
+				                            	</tr>
+				                            	<tr>
+				                            		<td><img src="img/user.png">Sofia</td>
+				                            		<td>none</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		
+				                            	</tr>
+				                            	<tr>
+				                            		<td><img src="img/user.png">Sofia</td>
+				                            		<td>none</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            		<td>5.00</td>
+				                            	</tr>
+				                            </table>
+				                        </div>
+				                        <div class="action">
+				                        	<ul class="list-unstyled">
+				                        		<li class="list"><button class="btn round-btn danger"><span class="fa fa-trash"></span></button></li>
+				                        		<li class="list"><button class="btn round-btn success"><span class="fa fa-clone"></span></button></li>
+				                        		<li class="list"><button  class="btn round-btn primary"><span class="fa fa-save"></span></button></li>
+
+				                        	</ul>
+				                        </div>
 			                          </div>
-			                        </div>
-			                    </div>
-			                </div>
-			            </div>
-				</div>
+			                        </div><!--content-->
+			                    </div> <!--card3-->
+			                </div><!--accordian-->
+			             </div><!--col12-->
+			            </div> <!--rowcontent-->
+				</div><!--offsetmd1-->
 				
-			</div>
-	</div>
+			</div><!--page-->
+	</div><!--containerfluid wrapper-->
 	
 
 	<script type="text/javascript" src="js/scripts.js"></script>
