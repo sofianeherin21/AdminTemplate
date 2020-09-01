@@ -43,7 +43,7 @@ body {
   display: inline-flex;
   flex-direction: row;
   position: relative;
-  justify-content: flex-start;
+  justify-content: flex-center;
   width: 100%;
   
 }
@@ -117,8 +117,8 @@ body {
   position: relative;
 }
 .d-flex {
-    display: -ms-flexbox!important;
-    display: flex!important;
+    display: -ms-flexbox;
+    display: flex;
 }
 .ml-3{
 	margin-left: 1rem;
@@ -126,7 +126,7 @@ body {
 .float-right{
 
 	
-    float: right!important;
+    float: right;
     box-sizing: border-box;
     display: block;
 
@@ -134,7 +134,7 @@ body {
 .float-left{
 
   
-    float: left!important;
+    float: left;
     box-sizing: border-box;
     display: block;
 
@@ -157,7 +157,7 @@ body {
     border-radius: .25rem;
     box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 4px 1px;
     margin-bottom: 0.5rem;
-    overflow-x: scroll;
+    
 
 }
 .collapse{
@@ -218,7 +218,7 @@ body {
   position: relative;
 	width: 100%;
 	box-sizing: border-box;
-	box-shadow: 0px 3px gray;
+	box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 4px 1px;
 	margin-bottom: 2rem;
 
 
@@ -247,7 +247,7 @@ body {
 
 .page-header .float-right .notification .d-flex{
 	position: relative;
-	display: flex!important;
+	display: flex;
 	padding-top: 1.5rem;
 
 }
@@ -270,7 +270,7 @@ body {
 }
 
 
-.col-1{
+.list-unstyled li{
   position: relative;
   display: flex;
   flex-direction: row;
@@ -297,6 +297,10 @@ body {
   margin-bottom: 0.5rem;
 
 }
+#table-nav .flex-col{
+  padding-left: 2rem;
+  padding-right:2rem;
+}
 #table-nav .row{
   margin-left:  1rem;
   padding: 2px;
@@ -306,13 +310,14 @@ body {
     float: right;
     margin-right: 3%;
     width: auto;
+    height: auto;
    
   }
   .table-left{
     position: relative;
     float: left;
     margin-right: auto;
-    margin-left: 10%; 
+    margin-left: 0; 
     width: auto;
   }
 
@@ -327,7 +332,7 @@ body {
     font-size: 65%;
     border-radius: 7px;
     box-shadow: rgba(0, 0, 0, 0.25) 3px 3px 4px 1px;
-    margin-bottom: 1rem;
+    margin-bottom: 0px;
     width: 100%;
 
   }
@@ -350,7 +355,7 @@ body {
     color: white;
   }
   td, th {
-    
+
     border: 0.5px solid #dddddd;
     padding: .5rem; 
     vertical-align: top;
@@ -417,6 +422,13 @@ td img,.smallpic{
 .add{
   position: relative;
   margin-right: 1%;
+  height: 50px;
+  top:;
+
+}
+.add button{
+  position: relative;
+ 
 }
 
 .nav{
@@ -438,7 +450,7 @@ td img,.smallpic{
     z-index: -0;
   }
   body {
-    min-width: 992px !important;
+    min-width: 992px ;
   }
   
 
@@ -447,8 +459,19 @@ td img,.smallpic{
 
 @media only screen and (max-width: 600px){
 
+  
+
+  
+}
+
+
+@media only screen and (max-width: 1130px){
+
   .table-left
   {
-    margin-left: 20%;
+    margin-left: 5%;
+  }
+  .card{
+    overflow-x: scroll;
   }
 }
